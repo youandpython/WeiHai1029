@@ -28,7 +28,7 @@ for friend in friends:
     signatures += ' '
 
 # Image.open，读取指定图片。
-im = Image.open('44.jpg')  # 可替换你喜欢的图⽚，在当前文件夹下（相对路径）
+im = Image.open('photo.jpg')  # 可替换你喜欢的图⽚，在当前文件夹下（相对路径）
 # np.array，将读入的im转换成背景图数据。
 mask = np.array(im)
 # WordCloud函数，建立词云对象

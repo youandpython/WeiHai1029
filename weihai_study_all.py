@@ -107,7 +107,7 @@ def signature_word_cloud():
         signatures += ' '
 
     # Image.open，读取指定图片。
-    im = Image.open('qq.jpg')  # 可替换你喜欢的图⽚，在当前文件夹下（相对路径）
+    im = Image.open('hbz.jpg')  # 可替换你喜欢的图⽚，在当前文件夹下（相对路径）
     # np.array，将读入的im转换成背景图数据。
     mask = np.array(im)
     # WordCloud函数，建立词云对象
@@ -160,5 +160,7 @@ while True:
 print('\n*******************************************\n'
       '* Thank you for coming, you are the best. *\n'
       '*******************************************')
+
+
 
 
